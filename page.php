@@ -1,10 +1,12 @@
 <?php
+ini_set('display_errors', 'On');
 //include the S3 class              
 if (!class_exists('S3'))require_once('S3.php');
  
+
 //AWS access info
-if (!defined('awsAccessKey')) define('awsAccessKey', 'AKIAJ24WMHDRDAZ3BMNA');
-if (!defined('awsSecretKey')) define('awsSecretKey', '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');
+if (!defined('awsAccessKey')) define('awsAccessKey', 'AKIAIIN36VQPBJLYRZRQ');
+if (!defined('awsSecretKey')) define('awsSecretKey', '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');
  
 //instantiate the class
 //$s3 = new S3(array('key'=>awsAccessKey, 'secret'=>awsSecretKey, 'signature' => 'v4', 'region'=>'eu-central-1'));
